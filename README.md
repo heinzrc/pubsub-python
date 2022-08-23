@@ -66,3 +66,23 @@ In the resulting command prompt type the following:
 ```
 python3 main.py
 ```
+
+# Channel Points Setup
+
+In order to utilize the now running script you will need to setup channel points rewards with titles that correspond to the following list:
+
+![image](https://user-images.githubusercontent.com/65210276/186217771-c2c8dc3f-fa51-4152-b1fa-3745d046cf98.png)
+
+Your rewards should look like the following to correspond with the code 
+
+![image](https://user-images.githubusercontent.com/65210276/186218214-e5be518b-eb7a-4727-b50c-8c6d5e2f2df7.png)
+
+Note that only the title matters. Things like cost have no effect on the performance of this program (in it's current state)
+
+# Customization
+
+Within webSocketClient.py you will find the list of titles and corresponding in game sensitvities. You can change all of these values to just about any number as long as the titles correspond with a reward.
+
+# Credits
+
+Python Twitch API integration template written by https://github.com/SlackingVeteran/
